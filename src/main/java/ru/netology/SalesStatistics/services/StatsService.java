@@ -12,8 +12,7 @@ public class StatsService {
 
     public int averageSales(int[] sales) {
         int sum = totalSales(sales);
-        int average;
-        average = sum / 12;
+        int average = sum / 12;
 
         return average;
     }
