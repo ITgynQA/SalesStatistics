@@ -75,7 +75,7 @@ public class StatsServiceTest {
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-        int expectedCountMaxMonth = 5;
+        int expectedCountMaxMonth = 6;
         int actualCountMaxMonth = service.calculateMaxMonth(sales);
 
         Assertions.assertEquals(expectedCountMaxMonth, actualCountMaxMonth);
